@@ -112,8 +112,6 @@ namespace ListAndDictionary
                         C = emp.Value.DateDeNaissance
                     };
 
-            d.ToList().First().
-
             Console.Read();
         }
     }
