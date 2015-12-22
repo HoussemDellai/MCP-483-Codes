@@ -30,8 +30,6 @@ namespace ThreadAndTask
                 Thread.Sleep(0);
             }
 
-            //t.Join();
-
             Console.Read();
         }
     }
