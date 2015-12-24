@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAndDictionary", "ListAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadAndTask", "ThreadAndTask\ThreadAndTask.csproj", "{499D4568-EA8F-4CE5-9DDE-5AFA2085B32E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel", "Parallel\Parallel.csproj", "{B54E2B8B-7FB5-4674-A6B8-E7185B78CF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAndAwait", "AsyncAndAwait\AsyncAndAwait.csproj", "{94C3763D-FEF8-40D2-87BA-265FA3BD7880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{499D4568-EA8F-4CE5-9DDE-5AFA2085B32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499D4568-EA8F-4CE5-9DDE-5AFA2085B32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499D4568-EA8F-4CE5-9DDE-5AFA2085B32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54E2B8B-7FB5-4674-A6B8-E7185B78CF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54E2B8B-7FB5-4674-A6B8-E7185B78CF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54E2B8B-7FB5-4674-A6B8-E7185B78CF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54E2B8B-7FB5-4674-A6B8-E7185B78CF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C3763D-FEF8-40D2-87BA-265FA3BD7880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C3763D-FEF8-40D2-87BA-265FA3BD7880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C3763D-FEF8-40D2-87BA-265FA3BD7880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C3763D-FEF8-40D2-87BA-265FA3BD7880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ExceptionHandling")]
+[assembly: AssemblyTitle("Parallel")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ExceptionHandling")]
+[assembly: AssemblyProduct("Parallel")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a5b5e7a3-64ef-4827-8c7f-eb547cca5499")]
+[assembly: Guid("b54e2b8b-7fb5-4674-a6b8-e7185b78cf54")]
 
 // Version information for an assembly consists of the following four values:
 //
