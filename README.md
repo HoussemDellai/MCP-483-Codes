@@ -2,9 +2,12 @@
 Sample codes for MCP 483 exam certification for the following features:
 
 * Thread & Task
+* Parallel
+* Async & Await
 * List
 * Dictionary
-* JSON & XML serialisatio
+* LINQ & PLINQ
+* JSON & XML serialisation
 * Action and Func
 * Exception
 * Read & Write files
