@@ -10,6 +10,29 @@ namespace ExceptionHandling
 
             try
             {
+                SampleTryCatchOperation();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
+
+            try
+            {
+                SetName("Houssem");
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                Console.WriteLine(exception.Data);
+                Console.WriteLine(exception.Source);
+            }
+        }
+
+        private static void SampleTryCatchOperation()
+        {
+            try
+            {
                 int x = 5;
 
                 int y = x / 0;
@@ -17,14 +40,13 @@ namespace ExceptionHandling
                 string z = "jhkjsdk";
 
                 int a = Convert.ToInt32(z);
-
-                //SetNameUsingContract("");
-                //GetNameUsingContract();
             }
             catch (DivideByZeroException exception)
             {
                 Console.WriteLine("Impossible de diviser par Zero !");
                 Console.WriteLine(exception.Message);
+
+                throw;
             }
             catch (FormatException exception)
             {
@@ -37,17 +59,6 @@ namespace ExceptionHandling
             finally
             {
                 // will always occur
-            }
-
-            try
-            {
-                SetName("Houssem");
-            }
-            catch (Exception exception)
-            {
-                Console.WriteLine(exception.Message);
-                Console.WriteLine(exception.Data);
-                Console.WriteLine(exception.Source);
             }
         }
 
@@ -66,7 +77,7 @@ namespace ExceptionHandling
 
         public static void SetNameUsingContract(string name)
         {
-            Contract.Requires(! string.IsNullOrWhiteSpace(name), "value is empty!");
+            Contract.Requires(!string.IsNullOrWhiteSpace(name), "value is empty!");
 
             Name = name;
         }
@@ -78,6 +89,9 @@ namespace ExceptionHandling
             return Name;
         }
 
-        public static string Name { get; protected set; }
+        public static string Name
+        {
+            get; protected set;
+        }
     }
 }
