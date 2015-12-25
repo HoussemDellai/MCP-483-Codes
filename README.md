@@ -12,3 +12,6 @@ Sample codes for MCP 483 exam certification for the following features:
 * Exception
 * Read & Write files
 * Debug & Trace
+* PerformanceCounter & Stopwatch
+* Dynamic type
+* Regex expressions
