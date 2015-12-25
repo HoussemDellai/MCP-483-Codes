@@ -15,3 +15,5 @@ Sample codes for MCP 483 exam certification for the following features:
 * PerformanceCounter & Stopwatch
 * Dynamic type
 * Regex expressions
+* Reflection
+* Garbage Collector
