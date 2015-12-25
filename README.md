@@ -17,3 +17,4 @@ Sample codes for MCP 483 exam certification for the following features:
 * Regex expressions
 * Reflection
 * Garbage Collector
+* Generic type
